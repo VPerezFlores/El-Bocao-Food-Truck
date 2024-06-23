@@ -1,0 +1,60 @@
+* {
+    font-family: "Manrope", sans-serif; 
+    top: 0;
+    left: 0; 
+    background-color: #C6943B;
+} 
+
+
+/* header/navigation */
+
+.topbar{
+   
+    color: #9B4129; 
+    top: 0;
+    left: 0;
+    display: block;
+    height: 150px;
+    position: absolute;
+    min-width: 100%;
+    margin-top: 0;
+    margin-bottom: 2px;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-family: "Playwrite NG Modern", cursive;
+    font-size: 30px;
+    top: 0;
+    padding-left: 15px;
+    margin-top: 15px;
+    display: flex;
+    float:left;
+    text-align: center;
+}
+
+a{
+    color: black;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    float: inline-end;
+    position: relative;
+    padding: 0 10px;
+}
+
+li{
+    padding: 10px 20px;
+    font-size: 20px;
+    line-height: 0 none;
+    letter-spacing: 1px;
+}
+
+.truck{
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+}
