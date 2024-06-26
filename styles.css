@@ -1,15 +1,18 @@
 * {
     font-family: "Manrope", sans-serif; 
-    top: 0;
-    left: 0; 
-    background-color: #C6943B;
+    
+    /* background-color: #C6943B; */
 } 
+
+body{
+    background-color: #C6943B;
+    margin: 0;
+}
 
 
 /* header/navigation */
 
 .topbar{
-   
     color: #9B4129; 
     top: 0;
     left: 0;
@@ -53,8 +56,44 @@ li{
     letter-spacing: 1px;
 }
 
-.truck{
+.truck, .sopa, .arroz, .alcapurrias {
     max-width: 100%;
-    height: auto;
     margin: 0;
+}
+
+.truck{
+    padding-top: 10rem;
+    width: 100%;
+}
+
+.alcapurrias{
+    float: right;
+}
+
+.arroz {
+    float: right;
+    width: 340px;
+}
+
+.sopa{
+    float: right;
+    width: 360px;
+}
+
+
+
+.footer{
+    color: black;
+    background-color: #9B4129; 
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+    
+    height: 60px;
+}
+
+.footer-text{
+    font-family: "Playwrite NG Modern", cursive;
+    font-size: 30px;
 }
