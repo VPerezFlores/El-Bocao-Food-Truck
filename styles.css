@@ -1,16 +1,11 @@
 * {
     font-family: "Manrope", sans-serif; 
-    
-    /* background-color: #C6943B; */
 } 
 
 body{
     background-color: #C6943B;
     margin: 0;
 }
-
-
-/* header/navigation */
 
 .topbar{
     color: #9B4129; 
@@ -89,11 +84,131 @@ li{
    bottom: 0;
    width: 100%;
    text-align: center;
-    
-    height: 60px;
+    height: 120px;
 }
 
 .footer-text{
     font-family: "Playwrite NG Modern", cursive;
     font-size: 30px;
+    margin-bottom: 10px;
+}
+
+i{
+    font-size: 3rem;
+    letter-spacing: 45px;
+}
+
+@media screen and (max-width: 800px) {
+    ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    li{
+        font-size: 17px;
+    }
+
+    .alcapurrias{
+        float: left;
+    }
+    
+    .sopa{
+        float: right;
+        width: 360px;
+    }
+
+        .arroz {
+        width: 340px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    
+    body{
+        font-size: 14px;
+    }
+
+    .logo{
+        font-size: 25px;
+    }
+
+    ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    li{
+        font-size: 15px;
+    }
+
+
+    .truck{
+        padding-top: 10rem;
+        max-width: 100%;
+        margin: 0;
+    }
+    
+    .alcapurrias{
+        float: right;
+        width: 190px
+    }
+    
+    .arroz {
+        float: right;
+        width: 190px;
+    }
+    
+    .sopa{
+        float: left;
+        width: 190px;
+    }
+
+    .footer-text{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .logo{
+        font-size: 20px;
+    }
+
+    ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    li{
+        font-size: 13px;
+    }
+
+    .alcapurrias{
+        float: right;
+        width: 160px
+    }
+    
+    .sopa{
+        float: left;
+        width: 160px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .logo{
+        font-size: 15px;
+    }
+
+    ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    li{
+        font-size: 10px;
+    }
+
+    .arroz {
+        float: right;
+        width: 160px;
+    }
 }
