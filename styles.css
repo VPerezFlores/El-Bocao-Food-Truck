@@ -95,7 +95,13 @@ li{
 
 i{
     font-size: 3rem;
-    letter-spacing: 45px;
+    letter-spacing: 30px;
+}
+
+video{
+    width: 320;
+    display: block;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 800px) {
@@ -119,6 +125,16 @@ i{
 
         .arroz {
         width: 340px;
+    }
+
+    i{
+        font-size: 2.3rem;
+        letter-spacing: 15px;
+        align-items: center;
+    }
+
+    video{
+        width: 300px;
     }
 }
 
@@ -166,6 +182,16 @@ i{
     .footer-text{
         font-size: 20px;
     }
+
+    i{
+        font-size: 2rem;
+        letter-spacing: 15px;
+        align-items: center;
+    }
+
+    video{
+        width: 260px;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -191,6 +217,15 @@ i{
         float: left;
         width: 160px;
     }
+
+    i{
+        font-size: 1.8rem;
+        letter-spacing: 15px;
+    }
+
+    video{
+        width: 220px;
+    }
 }
 
 @media screen and (max-width: 350px) {
@@ -210,5 +245,14 @@ i{
     .arroz {
         float: right;
         width: 160px;
+    }
+
+    i{
+        letter-spacing: 10px;
+        align-items: center;
+    }
+
+    video{
+        width: 220px;
     }
 }
