@@ -42,8 +42,8 @@ a{
 
 ul{
     list-style: none;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     float: inline-end;
     position:relative;
     padding: 0 10px;
@@ -109,17 +109,17 @@ video{
 
 @media screen and (max-width: 800px) {
     .logo {
-        width: 205px;
+        width: 150px;
     }
     
 
     ul{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     li{
-        font-size: 17px;
+        font-size: 14px;
     }
     
     .sopa{
@@ -144,17 +144,17 @@ video{
 
 @media screen and (max-width: 500px){
     
+    .logo{
+        width: 140px;
+        margin: 0.3rem;
+    }
+
     body{
         font-size: 14px;
     }
 
-    ul{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
     li{
-        font-size: 15px;
+        font-size: 13px;
     }
 
 
@@ -193,17 +193,12 @@ video{
 @media screen and (max-width: 400px) {
     
     .logo{
-        width: 145px;
+        width: 90px;
         margin: 0.3rem;
     }
 
-    ul{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
     li{
-        font-size: 13px;
+        font-size: 10px;
     }
 
     .sopa{
@@ -221,20 +216,16 @@ video{
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 315px) {
     
     .logo{
-        width: 120px;
+        width: 80px;
         margin: 0.4rem ;
     }
 
-    ul{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
 
     li{
-        font-size: 10px;
+        font-size: 9px;
     }
 
     .arroz {
