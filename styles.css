@@ -51,6 +51,7 @@ ul{
 
 li{
     padding: 10px 20px;
+    padding-left: 10px;
     font-size: 20px;
     line-height: 0 none;
     letter-spacing: 1px;
@@ -145,7 +146,7 @@ video{
 @media screen and (max-width: 500px){
     
     .logo{
-        width: 140px;
+        width: 160px;
         margin: 0.3rem;
     }
 
@@ -155,6 +156,7 @@ video{
 
     li{
         font-size: 13px;
+        padding-left: 5px;
     }
 
 
@@ -193,12 +195,13 @@ video{
 @media screen and (max-width: 400px) {
     
     .logo{
-        width: 90px;
+        width: 110px;
         margin: 0.3rem;
     }
 
     li{
         font-size: 10px;
+        padding-left: 0;
     }
 
     .sopa{
@@ -216,10 +219,10 @@ video{
     }
 }
 
-@media screen and (max-width: 315px) {
+@media screen and (max-width: 300px) {
     
     .logo{
-        width: 80px;
+        width: 100px;
         margin: 0.4rem ;
     }
 
@@ -242,3 +245,4 @@ video{
         width: 220px;
     }
 }
+
